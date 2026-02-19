@@ -1,4 +1,4 @@
-## Assignment 03: Vehicle Class Implementation
+## Assignment 02: Vehicle Class Implementation
 
 ## Description: 
 This project demonstrates the core principles of Object-Oriented Programming (OOP) in Java, specifically focusing on Encapsulation, Constructor Overloading, and Array of Objects. The goal is to manage vehicle data securely using private members and public accessors.
