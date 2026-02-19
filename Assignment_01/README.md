@@ -1,16 +1,16 @@
-Assignment 03: Vehicle Class Implementation
+# Assignment 01: Menu-Driven Arithmetic Calculator
 
-Description:
-This project demonstrates the core principles of Object-Oriented Programming (OOP) in Java, specifically focusing on Encapsulation, Constructor Overloading, and Array of Objects. The goal is to manage vehicle data securely using private members and public accessors.
+# Description:
+A modular Java application that performs basic arithmetic operations. The project emphasizes clean code structure, method decomposition, and robust user input validation to prevent runtime errors like division by zero.
 
-Key Features:
-1. Encapsulation: Implementation of private data members to protect object state, accessible only through public Getter and Setter methods.
-2. Constructor Overloading: * Default Constructor: Initializes objects with placeholder values.
-3. Parameterized Constructor: Allows custom initialization at the time of creation.
-4. Copy Constructor: Creates a new object as a carbon copy of an existing one.
-5. Behavioral Methods: Simulated vehicle logic including start(), stop(), drive(), calcMileage(), and changeSpeed().
-6. Object Arrays: Managing multiple Vehicle instances using a structured array for batch processing and display.
+## Features:
+- Menu-Driven Interface: Uses a `switch-case` structure for an interactive user experience.
+- Input Validation: Employs `Scanner` checks to ensure only numeric values are processed.
+- Modular Design: Each arithmetic operation (Addition, Subtraction, Multiplication, Division) is encapsulated in its own static method.
+- Error Handling: Explicitly checks for division by zero to maintain program stability.
 
-File Structure:
-1. Vehicle.java: The blueprint class containing data members, constructors, and methods.
-2. VehicleMain.java: The driver class that instantiates objects, populates the array, and handles output.
+## Logic Flow:
+1. The program displays a menu of operations.
+2. The user selects an option and provides two numeric inputs.
+3. The program validates the inputs and calls the corresponding modular method.
+4. Results are displayed, and the user can choose to perform another calculation or exit.
